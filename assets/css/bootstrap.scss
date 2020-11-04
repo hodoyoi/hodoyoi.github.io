@@ -1,2 +1,12 @@
+@import "variables";
+
+$theme-colors: (
+  "primary": $main_color,
+  "dark": $dark_color,
+  "light": $light_color,
+  "warning": $sub_color,
+  "danger": $accent_color,
+);
+
 @import '~bootstrap/scss/bootstrap.scss';
 @import '~bootstrap-vue/src/index.scss';
