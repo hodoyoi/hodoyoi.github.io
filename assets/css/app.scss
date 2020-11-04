@@ -1,5 +1,19 @@
 @import "variables";
 
+@font-face {
+  font-family: PixelMplus10 Regular;
+  src: url('https://cdn.leafscape.be/PixelMplus/PixelMplus10-Regular_web.woff2') format("woff2");
+}
+
+@font-face {
+  font-family: PixelMplus10 Bold;
+  src: url('https://cdn.leafscape.be/PixelMplus/PixelMplus10-Bold_web.woff2') format("woff2");
+}
+
+.pixel10 {
+  font-family: "PixelMplus10 Regular", serif;
+}
+
 body {
   background: $light_color;
 }
