@@ -1,50 +1,10 @@
 @import "variables";
-
-@font-face {
-  font-family: PixelMplus10 Regular;
-  src: url('https://cdn.leafscape.be/PixelMplus/PixelMplus10-Regular_web.woff2') format("woff2");
-}
-
-@font-face {
-  font-family: PixelMplus10 Bold;
-  src: url('https://cdn.leafscape.be/PixelMplus/PixelMplus10-Bold_web.woff2') format("woff2");
-}
-
-@font-face {
-  font-family: PixelMplus12 Regular;
-  src: url('https://cdn.leafscape.be/PixelMplus/PixelMplus12-Regular_web.woff2') format("woff2");
-}
-
-@font-face {
-  font-family: PixelMplus12 Bold;
-  src: url('https://cdn.leafscape.be/PixelMplus/PixelMplus12-Bold_web.woff2') format("woff2");
-}
+@import "fonts";
 
 .pixel10 {
-  font-family: "PixelMplus12 Regular", serif;
+  font-family: "PixelMplus10 Regular", sans-serif;
 }
 
 body {
   background: $light_color;
-}
-
-.hero {
-  color: white;
-  text-shadow: 2px 2px 1px #003366,
-  -2px 2px 1px #003366,
-  2px -2px 1px #003366,
-  -2px -2px 1px #003366,
-  2px 0px 1px #003366,
-  0px 2px 1px #003366,
-  -2px 0px 1px #003366,
-  0px -2px 1px #003366;
-  font-family: "PixelMplus10 Regular", serif;
-  font-size: 3rem;
-  line-height: 1.6;
-}
-
-.contact {
-  border: 0;
-  width: 100%;
-  min-height: 850px;
 }
