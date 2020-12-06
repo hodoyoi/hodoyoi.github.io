@@ -4,14 +4,14 @@
       .container
         .row.align-items-center
           .col-12.col-md-4.text-center
-            h1.hero シンプルで<br/>小さくて<br/>かんたんな<br/>アプリを作る
+            h1.hero ほどよく<br/>シンプルで<br/>かんたんな<br/>アプリを作る
 
           .col-12.col-md-8.text-center
-            b-img(src="~/assets/img/640x360.png" fluid)
+            MainImage
 
-    .bg-white.py-5.my-5
+    //.bg-white.py-5.my-5
       .container.text-center
-        h1 なんでもやらないシステムを作る
+        h1 かんたんなシステムを作る
         p
           | 改善を最低限から始めましょう。<br/>
           | ほどよい合同会社は、複数の目的を持ったシステムをお勧めしません。<br/>
@@ -37,8 +37,11 @@
 
 <script lang="ts">
 import Vue from 'vue'
+import MainImage from '~/components/MainImage.vue'
 
-export default Vue.extend({})
+export default Vue.extend({
+  components: { MainImage }
+})
 </script>
 
 <style scoped>
@@ -52,7 +55,8 @@ export default Vue.extend({})
   0 2px 1px #003366,
   -2px 0 1px #003366,
   0 -2px 1px #003366;
-  font-family: "PixelMplus10 Regular", serif;
+  /*// font-family: "PixelMplus10 Regular", serif;*/
+  font-weight: bold;
   font-size: 3rem;
   line-height: 1.6;
 }

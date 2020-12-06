@@ -1,7 +1,7 @@
 <template lang="pug">
   b-navbar(toggleable="lg" type="dark" variant="primary")
     b-container
-      b-navbar-brand(to="/")
+      b-navbar-brand.brand(to="/")
         HodoyoiLogo.logo.mr-2
         | ほどよい合同会社
 
@@ -28,9 +28,12 @@ export default Vue.extend({
 </script>
 
 <style scoped>
+.brand {
+  color: #292f36;
+}
 .logo {
-  height: 2rem;
-  width: 2rem;
+  height: 1.6rem;
+  width: 1.6rem;
 
   stroke: #fff;
   fill: #fff;
