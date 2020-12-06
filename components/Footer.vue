@@ -1,7 +1,7 @@
 <template lang="pug">
   .footer
     .text-center
-      p &copy; Hodoyoi G.K. 2020
+      p.text-white &copy; Hodoyoi G.K. 2020
 </template>
 
 <script>

@@ -1,15 +1,24 @@
 <template lang="pug">
   div
-    .my-5.py-5
-      .container
-        .row.align-items-center
-          .col-12.col-md-4.text-center
-            h1.hero ほどよく<br/>シンプルで<br/>かんたんな<br/>アプリを作る
+    .py-5.bg-white
+      b-container
+        b-row.align-items-center
+          b-col(md="4").text-center
+            h1.hero ほどよく<br/>シンプルで<br/>かんたんな<br/>システムを作る
+          b-col(md="8")
+            b-img(src="~/assets/img/top.png" fluid)
 
-          .col-12.col-md-8.text-center
-            MainImage
+    //.py-5.bg-light
+      b-container
+        b-row.align-content-between
+          b-col(md="4")
+            h2 アプリ制作
+          b-col(md="4")
+            h2 ITシステム相談
+          b-col(md="4")
+            h2 プログラミング教育
 
-    //.bg-white.py-5.my-5
+    //.py-5
       .container.text-center
         h1 かんたんなシステムを作る
         p
@@ -32,30 +41,27 @@
           | ほどよい合同会社は、そのお手伝いをします。<br/>
           nuxt-link(to="/contact") ご相談はこちらから。
 
-    // b-btn(variant="primary") Button
 </template>
 
 <script lang="ts">
 import Vue from 'vue'
-import MainImage from '~/components/MainImage.vue'
 
 export default Vue.extend({
-  components: { MainImage }
 })
 </script>
 
 <style scoped>
 .hero {
   color: white;
-  text-shadow: 2px 2px 1px #003366,
-  -2px 2px 1px #003366,
-  2px -2px 1px #003366,
-  -2px -2px 1px #003366,
-  2px 0 1px #003366,
-  0 2px 1px #003366,
-  -2px 0 1px #003366,
-  0 -2px 1px #003366;
-  /*// font-family: "PixelMplus10 Regular", serif;*/
+  text-shadow: 2px 2px 1px #55794e,
+  -2px 2px 1px #55794e,
+  2px -2px 1px #55794e,
+  -2px -2px 1px #55794e,
+  2px 0 1px #55794e,
+  0 2px 1px #55794e,
+  -2px 0 1px #55794e,
+  0 -2px 1px #55794e;
+  /*font-family: "PixelMplus10 Regular", serif;*/
   font-weight: bold;
   font-size: 3rem;
   line-height: 1.6;

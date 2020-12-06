@@ -1,9 +1,7 @@
 <template lang="pug">
   b-navbar(toggleable="lg" type="dark" variant="primary")
     b-container
-      b-navbar-brand.brand(to="/")
-        HodoyoiLogo.logo.mr-2
-        | ほどよい合同会社
+      b-navbar-brand(to="/") ほどよい合同会社
 
       b-navbar-toggle(target="nav-collapse")
 
@@ -11,7 +9,11 @@
         b-navbar-nav
           b-nav-item(to="/samples")
             b-icon-grid3x3-gap-fill.mr-1
-            | サンプル集
+            | 制作事例・サンプル
+
+          b-nav-item(to="/about")
+            b-icon-house.mr-1
+            | 会社概要
 
           b-nav-item(href="/contact")
             b-icon-envelope.mr-1
@@ -28,14 +30,4 @@ export default Vue.extend({
 </script>
 
 <style scoped>
-.brand {
-  color: #292f36;
-}
-.logo {
-  height: 1.6rem;
-  width: 1.6rem;
-
-  stroke: #fff;
-  fill: #fff;
-}
 </style>
