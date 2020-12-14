@@ -3,3 +3,15 @@ $light_color: #FFF0DB;
 $main_color: #E97925;
 $sub_color: #ffe66d;
 $accent_color: #ff6b6b;
+
+$font-size-base: 1rem;
+
+$h1-font-size: $font-size-base * 1.8;
+$h2-font-size: $font-size-base * 1.75;
+$h3-font-size: $font-size-base * 1.5;
+$h4-font-size: $font-size-base * 1.25;
+$h5-font-size: $font-size-base * 1.1;
+$h6-font-size: $font-size-base;
+
+@import '~bootstrap/scss/functions';
+@import '~bootstrap/scss/variables';

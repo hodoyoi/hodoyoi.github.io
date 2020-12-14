@@ -1,7 +1,7 @@
 <template lang="pug">
   .bg-white.py-5
     b-container
-      h1.mb-3.text-center.border-bottom 制作事例・サンプル
+      h1.section-title 🐕 サンプル 🐕
       .row
         .col-6.col-md-4.col-lg-3
           a.d-block(href="https://www.appsheet.com/start/d5dc9191-1183-453c-92e1-838fe02aceff" target="_blank" rel="noopener")

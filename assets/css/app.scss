@@ -1,8 +1,14 @@
 @import "variables";
 @import "fonts";
 
-.pixel10 {
-  font-family: "PixelMplus10 Regular", sans-serif;
+.section-title {
+  color: $gray-700;
+  font-weight: bold;
+  font-size: 1.8rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  padding-bottom: .25rem;
+  border-bottom: 1px solid $gray-500;
 }
 
 body {

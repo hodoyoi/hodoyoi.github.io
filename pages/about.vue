@@ -1,7 +1,7 @@
 <template lang="pug">
   .bg-white.py-5
     b-container
-      h1.mb-3.text-center.border-bottom 会社概要
+      h1.section-title 🦮 会社概要 🦮
       b-row
         b-col(md="6")
           b-row
