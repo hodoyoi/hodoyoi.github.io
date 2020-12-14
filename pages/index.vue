@@ -6,7 +6,7 @@
           b-col(md="4").text-center
             h1.hero ほどよく<br/>シンプルで<br/>かんたんな<br/>システムを作る
           b-col(md="8")
-            b-img(src="~/assets/img/top.png" fluid)
+            b-img(src="~/assets/img/top/hodoyoigk.png" fluid)
 
     //.py-5.bg-light
       b-container

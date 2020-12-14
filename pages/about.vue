@@ -36,8 +36,9 @@
             b-col.body(md="8")
               | 50万円
         b-col(md="6")
-          b-img.photo(src="~/assets/img/shiba.jpg" fluid)
+          b-img.photo(src="~/assets/img/about/shiba.jpg" fluid)
           p.text-center.small.mt-2 代表社員とその犬
+
 </template>
 
 <script>
