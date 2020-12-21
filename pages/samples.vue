@@ -14,7 +14,7 @@
       .row
         .col-6.col-md-4.col-lg-3
           a.d-block(href="https://www.appsheet.com/start/d5dc9191-1183-453c-92e1-838fe02aceff" target="_blank" rel="noopener")
-            b-img(src="~/assets/img/samples/kokyo.jpg" fluid)
+            b-img(src="~/assets/img/samples/kokyo.jpg" thumbnail fluid)
           .title 公共料金記録アプリ
           .description
             | スマートフォン用の簡単な記帳アプリです。
@@ -22,7 +22,7 @@
 
         .col-6.col-md-4.col-lg-3
           a.d-block(href="https://www.appsheet.com/start/9ecd6d51-8d1b-4b2a-90d6-9b4faa2b9207" target="_blank" rel="noopener")
-            b-img(src="~/assets/img/samples/nippo.jpg" fluid)
+            b-img(src="~/assets/img/samples/nippo.jpg" thumbnail fluid)
           .title 作業日報アプリ
           .description
             | スマートフォン用の簡単な作業日報アプリです。
@@ -38,11 +38,25 @@
       .row
         .col-6.col-md-4.col-lg-3
           a.d-block(href="https://sample.hodoyoi.net/attendance" target="_blank" rel="noopener")
-            b-img(src="~/assets/img/samples/timecard.png" fluid)
+            b-img(src="~/assets/img/samples/timecard.png" thumbnail fluid)
           .title シンプルタイムカード
           .description
             | スマートフォン用の簡単な勤怠記録ソフトです。高速に動作し、機能の追加や、他のシステムとの連携も可能です。
 
+      h1.mt-5.section-title 🐕 制作事例 🐕
+      .row
+        .col-12.col-md-6.col-lg-4
+          b-img(src="~/assets/img/samples/eccube-plugin-pic.png" thumbnail fluid)
+          .title 特注制作 写真館向け EC-Cube4.0 プラグイン
+
+        .col-12.col-md-6.col-lg-4
+          b-img(src="~/assets/img/samples/ec-site.png" thumbnail fluid)
+          .title 自己制作 プライベートECサイト
+
+        .col-12.col-md-6.col-lg-4
+          a.d-block(href="https://www.lilipeer.com/" target="_blank" rel="noopener")
+            b-img(src="~/assets/img/samples/ar-app.png" thumbnail fluid)
+            .title 一部制作 画像認識アプリ
 </template>
 
 <script lang="ts">
