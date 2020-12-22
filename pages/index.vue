@@ -2,44 +2,41 @@
   div
     .py-5.bg-white
       b-container
-        b-row.align-items-center
-          b-col(md="4").text-center
-            h1.hero ほどよく<br/>シンプルで<br/>かんたんな<br/>システムを作る
-          b-col(md="8")
+        b-row(no-gutters).align-items-center
+          b-col(md="5" lg="4").text-center
+            h1.hero シンプルで<br/>かんたんな<br/>システムを作る
+          b-col(md="7" lg="8")
             b-img(src="~/assets/img/top/hodoyoigk.png" fluid)
 
-    //.py-5.bg-light
+    .py-5.bg-light
       b-container
-        b-row.align-content-between
-          b-col(md="4")
-            h2 アプリ制作
-          b-col(md="4")
-            h2 ITシステム相談
-          b-col(md="4")
-            h2 プログラミング教育
+        b-row
+          b-col(md="6" lg="8")
+            b-card(border-variant="light")
+              h1 ウェブアプリケーション開発
+              p ほどよい合同会社では、以下の開発を行っております
+              ul
+                li
+                  b サーバサイドアプリケーション
+                  .small
+                    b-badge(variant="primary").text-white.mr-2 PHP
+                    | Laravel 8, CakePHP 3
+                  .small
+                    b-badge(variant="primary").text-white.mr-2 Ruby
+                    | Ruby on Rails 6
+                li
+                  b クライアントサイドアプリケーション
+                  .small
+                    b-badge(variant="primary").text-white.mr-2 Javascript, Typescript
+                    | Vue, Nuxt.js, React
 
-    //.py-5
-      .container.text-center
-        h1 かんたんなシステムを作る
-        p
-          | 改善を最低限から始めましょう。<br/>
-          | ほどよい合同会社は、複数の目的を持ったシステムをお勧めしません。<br/>
-          | あまりに複雑で、誰も使ってくれないためです。<br/>
-          nuxt-link(to="/contact") ご相談はこちらから。
-
-        h1 安いシステムを作る
-        p
-          | こだわりを絞って、必要な価値のみ追求しましょう。<br/>
-          | ほどよい合同会社は、できるだけ既製品で問題を解決することを推奨しています。<br/>
-          | システムを作るより手順書を配る方が安いためです。<br/>
-          nuxt-link(to="/contact") ご相談はこちらから。
-
-        h1 システムを組み合わせる
-        p
-          | 目的を分解して、小さいシステムに割り振りましょう。<br/>
-          | 使わないシステムを捨てて、使っているシステムのみ強化しましょう。<br/>
-          | ほどよい合同会社は、そのお手伝いをします。<br/>
-          nuxt-link(to="/contact") ご相談はこちらから。
+          b-col(md="6" lg="4")
+            b-card(border-variant="light" title="🐶 お知らせ 🐶")
+              ul.news
+                li
+                  a(href="https://hodoyoi.official.ec/" target="_blank" rel="noopener") 公式ECショップ
+                  | ができました
+                li ホームページができました
 
 </template>
 
@@ -63,7 +60,18 @@ export default Vue.extend({
   0 -2px 1px #55794e;
   /*font-family: "PixelMplus10 Regular", serif;*/
   font-weight: bold;
-  font-size: 3rem;
-  line-height: 1.6;
+  line-height: 1.5;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 768px) {
+  .hero {
+    font-size: 2.6rem;
+  }
+}
+
+.news {
+  list-style: "🐾 ";
 }
 </style>
