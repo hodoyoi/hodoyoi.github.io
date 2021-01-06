@@ -36,7 +36,8 @@ export default {
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: [
     // https://go.nuxtjs.dev/bootstrap
-    ['bootstrap-vue/nuxt', {icons: true}]
+    ['bootstrap-vue/nuxt', {icons: true}],
+    '@nuxtjs/sitemap'
   ],
 
   // bootstrap-vue module
@@ -44,4 +45,18 @@ export default {
     bootstrapCSS: false,
     bootstrapVueCSS: false
   },
+
+  // sitemap module
+  sitemap: {
+    hostname: 'https://hodoyoi.net',
+    gzip: true,
+    exclude: [
+      '/service/**'
+    ],
+    routes: [
+      '/about',
+      '/contact',
+      '/samples',
+    ]
+  }
 }

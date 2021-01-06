@@ -1,5 +1,8 @@
 # hodoyoi.net
 
+Github Pagesを利用したNuxt.jsアプリケーションです。  
+developブランチで作業をして、ビルドしたものをmasterにpushして下さい。
+
 ## Build Setup
 
 ```bash
@@ -17,4 +20,14 @@ $ yarn start
 $ yarn generate
 ```
 
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+## Development Server
+以下のスクリプトを利用して下さい。
+```
+$ bin/watch.sh
+```
+
+## Deploy
+以下のスクリプトを利用して下さい。
+```
+$ bin/deploy.sh
+```
