@@ -1,10 +1,10 @@
 <template lang="pug">
   div
-    .py-5.bg-white
+    .bg-white.py-lg-5.py-3
       b-container
         b-row(no-gutters).align-items-center
           b-col(md="5" lg="4").text-center
-            h1.hero シンプルで<br/>かんたんな<br/>システムを作る
+            h1.hero シンプルで<br/>かんたんな<br/>アプリを作る
           b-col(md="7" lg="8")
             b-img(src="~/assets/img/top/hodoyoigk.png" fluid)
 
@@ -13,26 +13,38 @@
         b-row
           b-col(md="6" lg="8")
             b-card(border-variant="light")
-              h1 ウェブアプリケーション開発
-              p ほどよい合同会社では、以下の開発を行っております
+              h2 ウェブアプリケーション開発業務
+              hr
+              p ほどよい合同会社では、以下の言語・フレームワークを使用した開発を行っています。<br/>また、リモートによる開発業務のお手伝いも承ります。
               ul
                 li
                   b サーバサイドアプリケーション
                   .small
                     b-badge(variant="primary").text-white.mr-2 PHP
-                    | Laravel 8, CakePHP 3
+                    b Laravel 8
+                    |, CakePHP 3
                   .small
                     b-badge(variant="primary").text-white.mr-2 Ruby
                     | Ruby on Rails 6
-                li
+
+                li.mt-3
                   b クライアントサイドアプリケーション
                   .small
                     b-badge(variant="primary").text-white.mr-2 Javascript, Typescript
                     | Vue, Nuxt.js, React
 
+                li.mt-3
+                  b モバイル・ネイティブアプリケーション
+                  .small
+                    b-badge(variant="primary").text-white.mr-2 Kotlin
+                    | Android ネイティブ開発
+                  .small
+                    b-badge(variant="primary").text-white.mr-2 Typescript
+                    | React Native
+
           b-col(md="6" lg="4")
             b-card(border-variant="light" title="🐶 お知らせ 🐶")
-              ul.news
+              ul
                 li
                   a(href="https://hodoyoi.official.ec/" target="_blank" rel="noopener") 公式ECショップ
                   | ができました
@@ -71,7 +83,8 @@ export default Vue.extend({
   }
 }
 
-.news {
+ul {
   list-style: "🐾 ";
 }
+
 </style>
