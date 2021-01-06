@@ -1,0 +1,3 @@
+User-Agent:*
+Disallow:
+Sitemap:https://hodoyoi.net/sitemap.xml
