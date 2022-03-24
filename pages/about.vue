@@ -1,4 +1,4 @@
-<template lang="pug">
+<template lang='pug'>
   .bg-white.py-5
     b-container
       h1.section-title 🦮 会社概要 🦮
@@ -51,9 +51,11 @@ export default {
 .head {
   font-weight: bold;
 }
+
 .body {
   margin-bottom: 1rem;
 }
+
 .photo {
   border: 1px solid #ccc;
   border-radius: .25rem;

@@ -9,7 +9,11 @@
         b-navbar-nav
           b-nav-item(to="/samples")
             b-icon-grid3x3-gap-fill.mr-1
-            | サンプル
+            | 制作事例
+
+          b-nav-item(to="/school")
+            b-icon-pen.mr-1
+            | プログラミングスクール
 
           b-nav-item(to="/about")
             b-icon-house.mr-1
