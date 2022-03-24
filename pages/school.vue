@@ -22,27 +22,27 @@
             b-card-img(src='~/assets/img/school/wakaba.jpg')
           b-col(md='8')
             b-card-body
-              h3 ゆるくプログラミングコース
-              | プログラミングに初めて触れる方や、新しい趣味を見つけたい方のために、シンプルなアプリやゲームを作りながら、コンピュータサイエンスの基礎を学びます。
+              h3 ゆるプログラミングコース
+              | プログラミングに初めて触れる方や、新しい趣味を見つけたい方のために、ブラウザ上で動作するシンプルなアプリやゲームを作りながら、コンピュータサイエンスの基礎を学びます。
               br
               .text-right
                 small 開発言語: Javascript
               hr
               div 頻度: 週1回 <small>(2時間)</small>
-              div 費用: 3万円 <small>／月</small>
+              div 費用: 4万円 <small>／月</small>
 
       b-card.mt-3(no-body)
         b-row
           b-col.order-1.order-md-0(md='8')
             b-card-body
               h3 ウェブ開発専門コース
-              | これから職業としてWebプログラミングに取り組みたい方や、社内のIT業務の効率化を求める方のために、開発に必要な技術や環境の整備、データベースの知識を丁寧に学習します。
+              | これから職業としてWebプログラミングに取り組みたい方や、社内のIT業務の効率化を求める方のために、開発に必要なインフラ技術や仮想環境の整備、データベースの知識を学習します。
               br
               .text-right
                 small 開発言語: PHP, C#
               hr
               div 頻度: 週1回 <small>(3時間)</small>
-              div 費用: 5万円 <small>／月</small>
+              div 費用: 6万円 <small>／月</small>
           b-col.order-0.order-md-1(md='4')
             b-card-img(src='~/assets/img/school/lang.jpg')
 
@@ -59,7 +59,7 @@
                 small 開発言語: Python
               hr
               div 頻度: 月2回 <small>(4時間)</small>
-              div 費用: 2万円 <small>／月</small>
+              div 費用: 3万円 <small>／月</small>
 
       h2.mt-5 アクセス
       p 新潟県上越市南新町1-3 アシスト上越マンション3 405号室 <small>(駐車場は現在準備中です)</small>
