@@ -41,7 +41,7 @@
               .text-right
                 small 開発言語: PHP, C#
               hr
-              div 頻度: 週1回 <small>(2時間)</small>
+              div 頻度: 週1回 <small>(3時間)</small>
               div 費用: 5万円 <small>／月</small>
           b-col.order-0.order-md-1(md='4')
             b-card-img(src='~/assets/img/school/lang.jpg')
