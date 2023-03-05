@@ -1,37 +1,31 @@
-<template lang="pug">
-  b-navbar(toggleable="lg" type="dark" variant="primary")
-    b-container
-      b-navbar-brand(to="/") ほどよい合同会社
-
-      b-navbar-toggle(target="nav-collapse")
-
-      b-collapse#nav-collapse(is-nav)
-        b-navbar-nav
-          b-nav-item(to="/samples")
-            b-icon-grid3x3-gap-fill.mr-1
-            | 制作事例
-
-          b-nav-item(to="/school")
-            b-icon-pen.mr-1
-            | プログラミングスクール
-
-          b-nav-item(to="/about")
-            b-icon-house.mr-1
-            | 会社概要
-
-          b-nav-item(href="/contact")
-            b-icon-envelope.mr-1
-            | お問い合わせ
+<template>
+  <b-navbar toggleable="lg" type="dark" variant="primary">
+    <b-container>
+      <b-navbar-brand to="/">ほどよい合同会社</b-navbar-brand>
+      <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
+      <b-collapse id="nav-collapse" is-nav="is-nav">
+        <b-navbar-nav>
+          <b-nav-item to="/samples">
+            <b-icon-grid3x3-gap-fill class="mr-1"></b-icon-grid3x3-gap-fill>
+            制作事例
+          </b-nav-item>
+          <b-nav-item to="/school">
+            <b-icon-pen class="mr-1"></b-icon-pen>
+            プログラミングスクール
+          </b-nav-item>
+          <b-nav-item to="/about">
+            <b-icon-house class="mr-1"></b-icon-house>
+            会社概要
+          </b-nav-item>
+          <b-nav-item href="/contact">
+            <b-icon-envelope class="mr-1"></b-icon-envelope>
+            お問い合わせ
+          </b-nav-item>
+        </b-navbar-nav>
+      </b-collapse>
+    </b-container>
+  </b-navbar>
 </template>
-
-<script lang="ts">
-import Vue from 'vue'
-import HodoyoiLogo from '~/components/HodoyoiLogo.vue'
-
-export default Vue.extend({
-  components: { HodoyoiLogo }
-})
-</script>
 
 <style scoped>
 </style>

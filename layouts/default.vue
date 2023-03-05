@@ -1,8 +1,9 @@
-<template lang="pug">
-  div
-    Navbar
-    Nuxt
-    Footer
+<template>
+  <div>
+    <Navbar></Navbar>
+    <NuxtPage/>
+    <Footer></Footer>
+  </div>
 </template>
 <style>
 </style>

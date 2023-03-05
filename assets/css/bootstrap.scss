@@ -8,5 +8,4 @@ $theme-colors: (
   "danger": $accent_color,
 );
 
-@import '~bootstrap/scss/bootstrap.scss';
-@import '~bootstrap-vue/src/index.scss';
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
