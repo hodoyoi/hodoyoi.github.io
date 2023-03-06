@@ -1,5 +1,6 @@
 <template>
   <div>
+    <!--
     <div class="bg-white py-lg-5 py-3">
       <b-container>
         <b-row class="align-items-center" no-gutters="no-gutters">
@@ -56,6 +57,7 @@
         </b-row>
       </b-container>
     </div>
+    -->
   </div>
 </template>
 

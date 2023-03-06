@@ -1,31 +1,32 @@
 <template>
-  <b-navbar toggleable="lg" type="dark" variant="primary">
-    <b-container>
-      <b-navbar-brand to="/">ほどよい合同会社</b-navbar-brand>
-      <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
-      <b-collapse id="nav-collapse" is-nav="is-nav">
-        <b-navbar-nav>
-          <b-nav-item to="/samples">
-            <b-icon-grid3x3-gap-fill class="mr-1"></b-icon-grid3x3-gap-fill>
-            制作事例
-          </b-nav-item>
-          <b-nav-item to="/school">
-            <b-icon-pen class="mr-1"></b-icon-pen>
-            プログラミングスクール
-          </b-nav-item>
-          <b-nav-item to="/about">
-            <b-icon-house class="mr-1"></b-icon-house>
-            会社概要
-          </b-nav-item>
-          <b-nav-item href="/contact">
-            <b-icon-envelope class="mr-1"></b-icon-envelope>
-            お問い合わせ
-          </b-nav-item>
-        </b-navbar-nav>
-      </b-collapse>
-    </b-container>
-  </b-navbar>
-</template>
+  <nav class="navbar" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="https://bulma.io">
+        <b>HODOYOI G.K.</b>
+      </a>
 
-<style scoped>
-</style>
+      <a role="button" class="navbar-burger" :class="{'is-active': isOpen}" aria-label="menu" aria-expanded="false" data-target="mainNavbar" @click='isOpen = !isOpen'>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+
+    <div id="mainNavbar" class="navbar-menu" :class="{'is-active': isOpen}">
+      <div class="navbar-start">
+        <a class="navbar-item" href="/abount">
+          会社概要
+        </a>
+        <a class="navbar-item" href="/samples">
+          制作事例
+        </a>
+        <a class="navbar-item" href="/school">
+          プログラミングスクール
+        </a>
+      </div>
+    </div>
+  </nav>
+</template>
+<script setup lang='ts'>
+let isOpen = false
+</script>

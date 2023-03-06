@@ -6,19 +6,17 @@
     "dev": "nuxt dev",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate",
-    "deploy": "push-dir --dir=dist --branch=master --cleanup"
+    "generate": "nuxt generate"
   },
   "dependencies": {
     "@popperjs/core": "^2.11.6",
-    "bootstrap": "^5.2.1",
-    "bootstrap-vue-3": "^0.3.2",
-    "nuxt": "3.0.0-rc.9"
+    "bootstrap": "^5.2.3",
+    "bootstrap-vue-3": "^0.5.1",
+    "bulma": "^0.9.4",
+    "nuxt": "^3.2.3"
   },
   "devDependencies": {
-    "prettier": "^2.1.2",
-    "push-dir": "^0.4.1",
-    "sass": "^1.28.0",
-    "sass-loader": "^10.0.5"
+    "prettier": "^2.8.4",
+    "sass": "^1.58.3"
   }
 }

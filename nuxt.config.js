@@ -1,5 +1,3 @@
-import { defineNuxtConfig } from 'nuxt'
-
 export default defineNuxtConfig({
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
@@ -7,26 +5,16 @@ export default defineNuxtConfig({
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
+      { hid: 'description', name: 'description', content: 'ほどよい合同会社' },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
 
   // Global CSS (https://go.nuxtjs.dev/config-css)
-  css: ['~/assets/css/bootstrap.scss', '~/assets/css/app.scss'],
-
-  build: {
-    babel: {
-      babelrc: false,
-      compact: false,
-    },
-  },
-
-  // Modules (https://go.nuxtjs.dev/config-modules)
-  modules: [
-    // https://go.nuxtjs.dev/bootstrap
-    // ['bootstrap-vue/nuxt', { icons: true }],
-    // '@nuxtjs/sitemap',
+  css: [
+    // '~/assets/css/bootstrap.scss',
+    // '~/assets/css/app.scss',
+    '~/assets/css/bulma.scss',
   ],
 
   // bootstrap-vue module
