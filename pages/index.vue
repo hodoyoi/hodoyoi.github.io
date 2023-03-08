@@ -1,92 +1,77 @@
 <template>
   <div>
-    <!--
-    <div class="bg-white py-lg-5 py-3">
-      <b-container>
-        <b-row class="align-items-center" no-gutters="no-gutters">
-          <b-col class="text-center" md="5" lg="4">
-            <h1 class="hero">シンプルで<br />かんたんな<br />アプリを作る</h1>
-          </b-col>
-          <b-col md="7" lg="8">
-            <b-img src="~/assets/img/top/hodoyoigk.png" fluid="fluid"></b-img>
-          </b-col>
-        </b-row>
-      </b-container>
+    <div class="container mx-auto">
+      <img
+        src="~/assets/img/top/hodoyoigk.png"
+        alt="ほどよい合同会社"
+        class="mx-auto max-h-128"
+      />
+
+      <h2 class="p-3 text-lg italic text-center border-b border-b-gray-light">
+        ほどよい合同会社は、新潟県上越市に拠点を置く、ソフトウェアの特注開発を行う会社です。
+      </h2>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+        <div>
+          <Appeal>なんでも開発業務</Appeal>
+          <AppealText>
+            業務管理システム、在庫管理システム、ARスマートフォンアプリ、決済連携機能付きECシステム、位置情報システム、ゲームアプリなど様々な分野での開発業務を行っております。<br />
+            <b>高難度案件、サンプルの試作</b>も喜んでお受けいたします。
+          </AppealText>
+
+          <Appeal>シンプルさを追求</Appeal>
+          <AppealText>
+            お客様のご要望に対して、できる限り現実的でシンプルな解決方法を模索し、ご提案させて頂きます。<br />
+            その結果、<b>そもそもシステム制作が不要になる</b>場合すらあります。おかげで儲かりません。
+          </AppealText>
+        </div>
+
+        <div>
+          <Appeal>キャンペーン</Appeal>
+          <AppealText> 調査・サンプル試作 </AppealText>
+        </div>
+
+        <div>
+          <Appeal>主要技術 / フレームワーク</Appeal>
+          <ul class="tech text-sm">
+            <li>
+              <p>サーバサイド開発</p>
+              <p>
+                <b>Laravel</b>, CakePHP,
+                <br />
+                <b>Ruby on Rails</b>
+              </p>
+            </li>
+            <li>
+              <p>クライアントサイド開発</p>
+              <p><b>React</b>, Next.js, Vue, Nuxt.js</p>
+            </li>
+            <li>
+              <p>モバイル・ネイティブ開発</p>
+              <p><b>React Native</b>, C#, Swift, Kotlin</p>
+            </li>
+            <li>
+              <p>ゲーム開発</p>
+              <p><b>Unity</b>, Phaser</p>
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
-    <div class="py-5 bg-light">
-      <b-container>
-        <b-row>
-          <b-col md="6" lg="8">
-            <b-card border-variant="light">
-              <h2>新潟県上越市に拠点を置く、コンピュータシステムの特注開発専門会社です。</h2>
-              <hr />
-              <p>ほどよい合同会社では、以下の言語・フレームワークを使用した開発を行っています。<br />また、リモートによる開発業務のお手伝いも承ります。</p>
-              <ul>
-                <li><b>サーバサイドアプリケーション</b>
-                  <div class="small">
-                    <b-badge class="text-white mr-2" variant="primary">PHP</b-badge><b>Laravel 8</b>, CakePHP 3
-                  </div>
-                  <div class="small">
-                    <b-badge class="text-white mr-2" variant="primary">Ruby</b-badge>Ruby on Rails 6
-                  </div>
-                </li>
-                <li class="mt-3"><b>クライアントサイドアプリケーション</b>
-                  <div class="small">
-                    <b-badge class="text-white mr-2" variant="primary">Javascript, Typescript</b-badge>Vue, Nuxt.js, React
-                  </div>
-                </li>
-                <li class="mt-3"><b>モバイル・ネイティブアプリケーション</b>
-                  <div class="small">
-                    <b-badge class="text-white mr-2" variant="primary">Kotlin</b-badge>Android ネイティブ開発
-                  </div>
-                  <div class="small">
-                    <b-badge class="text-white mr-2" variant="primary">Typescript</b-badge>React Native
-                  </div>
-                </li>
-              </ul>
-            </b-card>
-          </b-col>
-          <b-col md="6" lg="4">
-            <b-card border-variant="light" title="🐶 お知らせ 🐶">
-              <ul>
-                <li><a href="https://hodoyoi.official.ec/" target="_blank" rel="noopener">公式ECショップ</a>ができました</li>
-                <li>ホームページができました</li>
-              </ul>
-            </b-card>
-          </b-col>
-        </b-row>
-      </b-container>
-    </div>
-    -->
   </div>
 </template>
 
 <style scoped>
-.hero {
-  color: white;
-  text-shadow: 2px 2px 1px #55794e,
-  -2px 2px 1px #55794e,
-  2px -2px 1px #55794e,
-  -2px -2px 1px #55794e,
-  2px 0 1px #55794e,
-  0 2px 1px #55794e,
-  -2px 0 1px #55794e,
-  0 -2px 1px #55794e;
-  /*font-family: "PixelMplus10 Regular", serif;*/
-  font-weight: bold;
-  line-height: 1.5;
-  font-size: 2rem;
-  margin-bottom: 1rem;
+.tech {
+  list-style: '🐾 ';
 }
-
-@media (min-width: 768px) {
-  .hero {
-    font-size: 2.6rem;
-  }
+.tech li {
+  margin-left: 2rem;
+  margin-top: 1rem;
 }
-
-ul {
-  list-style: "🐾 ";
-}
-
 </style>
+
+<script setup lang="ts">
+import Appeal from '~/components/index/Appeal.vue'
+import AppealText from '~/components/index/AppealText.vue'
+</script>

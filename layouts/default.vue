@@ -1,14 +1,18 @@
 <template>
   <div>
-    <Navbar></Navbar>
-    <NuxtPage/>
+    <header>
+      <GlobalHeader />
+    </header>
+    <main class="py-10">
+      <NuxtPage />
+    </main>
+    <footer class="py-10">
+      <GlobalFooter />
+    </footer>
   </div>
 </template>
-<style>
-</style>
-<script>
-import Navbar from '~/components/Navbar'
-export default {
-  components: { Navbar }
-}
+
+<script setup lang="ts">
+import GlobalHeader from '~/components/shared/GlobalHeader.vue'
+import GlobalFooter from '~/components/shared/GlobalFooter.vue'
 </script>
