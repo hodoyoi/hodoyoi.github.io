@@ -31,7 +31,7 @@
         <ul
           class="flex flex-col p-4 mt-4 rounded bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700"
         >
-          <li><GlobalHeaderLink href="/abount">会社概要</GlobalHeaderLink></li>
+          <li><GlobalHeaderLink href="/about">会社概要</GlobalHeaderLink></li>
           <li><GlobalHeaderLink href="/samples">制作事例</GlobalHeaderLink></li>
           <li><GlobalHeaderLink href="/school">スクール</GlobalHeaderLink></li>
           <li><GlobalHeaderLink href="/contact">お問合せ</GlobalHeaderLink></li>
