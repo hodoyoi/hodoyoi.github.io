@@ -2,6 +2,10 @@
   "name": "hodoyoi.net",
   "version": "1.0.1",
   "private": true,
+  "type": "module",
+  "imports": {
+    "#internal/*": "./.nuxt/dist/server/*"
+  },
   "scripts": {
     "dev": "nuxt dev",
     "build": "nuxt build",
@@ -9,8 +13,8 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "@nuxtjs/tailwindcss": "^6.4.1",
-    "nuxt": "^3.2.3"
+    "@nuxtjs/tailwindcss": "^6.14.0",
+    "nuxt": "^3.17.5"
   },
   "devDependencies": {
     "prettier": "^3.6.2"
