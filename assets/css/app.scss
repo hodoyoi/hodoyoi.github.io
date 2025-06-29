@@ -1,12 +1,12 @@
-@import "variables";
-@import "fonts";
+@import 'variables';
+@import 'fonts';
 
 .section-title {
   color: $gray-700;
   font-weight: bold;
   text-align: center;
   margin-bottom: 2rem;
-  padding-bottom: .25rem;
+  padding-bottom: 0.25rem;
   border-bottom: 1px solid $gray-500;
 }
 

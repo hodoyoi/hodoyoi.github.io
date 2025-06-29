@@ -10,11 +10,12 @@
           </b-row>
           <b-row>
             <b-col class="head" md="4">本社所在地</b-col>
-            <b-col class="body" md="8">〒943-0841<br/>新潟県上越市南本町2-1-4</b-col>
+            <b-col class="body" md="8">〒943-0841<br />新潟県上越市南本町2-1-4</b-col>
           </b-row>
           <b-row>
             <b-col class="head" md="4">お問い合わせ先</b-col>
-            <b-col class="body" md="8">TEL: 080-3701-3570<br/>
+            <b-col class="body" md="8"
+              >TEL: 080-3701-3570<br />
               <nuxt-link to="/contact">お問い合わせフォーム</nuxt-link>
             </b-col>
           </b-row>
@@ -40,7 +41,6 @@
   </div>
 </template>
 
-
 <style scoped>
 .head {
   font-weight: bold;
@@ -52,8 +52,7 @@
 
 .photo {
   border: 1px solid #ccc;
-  border-radius: .25rem;
-  padding: .25rem;
+  border-radius: 0.25rem;
+  padding: 0.25rem;
 }
-
 </style>

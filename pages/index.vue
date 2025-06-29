@@ -1,11 +1,7 @@
 <template>
   <div>
     <div class="container mx-auto">
-      <img
-        src="~/assets/img/top/hodoyoigk.png"
-        alt="ほどよい合同会社"
-        class="mx-auto max-h-128"
-      />
+      <img src="~/assets/img/top/hodoyoigk.png" alt="ほどよい合同会社" class="mx-auto max-h-128" />
 
       <h2 class="p-3 text-lg italic text-center border-b border-b-gray-light">
         ほどよい合同会社は、新潟県上越市に拠点を置く、ソフトウェアの特注開発を行う会社です。
@@ -72,6 +68,6 @@
 </style>
 
 <script setup lang="ts">
-import Appeal from '~/components/index/Appeal.vue'
-import AppealText from '~/components/index/AppealText.vue'
+import Appeal from '~/components/index/Appeal.vue';
+import AppealText from '~/components/index/AppealText.vue';
 </script>

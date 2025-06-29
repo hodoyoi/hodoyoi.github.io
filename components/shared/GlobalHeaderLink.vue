@@ -9,8 +9,8 @@
 
 <script setup lang="ts">
 const props = defineProps<{
-  href: string
-}>()
+  href: string;
+}>();
 </script>
 
 <style scoped></style>

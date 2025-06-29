@@ -13,6 +13,6 @@
 </template>
 
 <script setup lang="ts">
-import GlobalHeader from '~/components/shared/GlobalHeader.vue'
-import GlobalFooter from '~/components/shared/GlobalFooter.vue'
+import GlobalHeader from '~/components/shared/GlobalHeader.vue';
+import GlobalFooter from '~/components/shared/GlobalFooter.vue';
 </script>

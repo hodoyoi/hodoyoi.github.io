@@ -13,6 +13,6 @@
     "nuxt": "^3.2.3"
   },
   "devDependencies": {
-    "prettier": "^2.8.4"
+    "prettier": "^3.6.2"
   }
 }

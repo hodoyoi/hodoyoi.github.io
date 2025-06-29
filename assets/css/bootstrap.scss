@@ -1,11 +1,11 @@
-@import "variables";
+@import 'variables';
 
 $theme-colors: (
-  "primary": $main_color,
-  "dark": $dark_color,
-  "light": $light_color,
-  "warning": $sub_color,
-  "danger": $accent_color,
+  'primary': $main_color,
+  'dark': $dark_color,
+  'light': $light_color,
+  'warning': $sub_color,
+  'danger': $accent_color,
 );
 
 @import '../../node_modules/bootstrap/scss/bootstrap.scss';
