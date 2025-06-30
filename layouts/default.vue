@@ -3,7 +3,7 @@
     <header>
       <GlobalHeader />
     </header>
-    <main class="py-10">
+    <main class="py-10 container mx-auto">
       <NuxtPage />
     </main>
     <footer class="py-10">
