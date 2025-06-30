@@ -18,7 +18,7 @@
           <Appeal>シンプルさを追求</Appeal>
           <AppealText>
             お客様のご要望に対して、できる限り現実的でシンプルな解決方法を模索し、ご提案させて頂きます。<br />
-            <button @click="showAlert" class="mt-2 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600">
+            <button @click="showAlert" class="mt-2 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 test">
               test
             </button>
           </AppealText>
